@@ -11,6 +11,7 @@
 @implementation Book
 @synthesize title = _title;
 @synthesize author = _author;
+@synthesize image = _image;
 
 // A Class method (remember this can only be called directly on Book)
 // Not on an instance of Book, such as Book *book

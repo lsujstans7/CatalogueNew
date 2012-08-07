@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *author;
+@property (nonatomic, strong) UIImage *image;
 
 // A custom class method to simplify the creation of a new Book instance
 + (Book *)bookWithTitle:(NSString *)title author:(NSString *)author price:(float)price identificationNumber:(int)idNum;

@@ -15,11 +15,13 @@
 @end
 
 @implementation DetailViewController
+@synthesize addImageButton;
 @synthesize nameLabel;
 @synthesize creatorLabel;
 @synthesize priceLabel;
 @synthesize idLabel;
 @synthesize item = _item;
+@synthesize imageView;
 
 // Initialize the labels with the values for the item that we have been assigned
 - (void)viewDidLoad
@@ -31,10 +33,12 @@
     self.idLabel.text = [NSString stringWithFormat:@"%d",self.item.identificationNumber];
     
     if ([self.item isMemberOfClass:[Book class]]) {
+        self.addImageButton.hidden = NO;
         Book *book = (Book *)self.item;
         self.nameLabel.text = book.title;
         self.creatorLabel.text = book.author;
     } else if ([self.item isMemberOfClass:[CD class]]) {
+        self.addImageButton.hidden = YES;
         CD *cd = (CD *)self.item;
         self.nameLabel.text = cd.label;
         self.creatorLabel.text = cd.artist;
@@ -47,6 +51,8 @@
     [self setCreatorLabel:nil];
     [self setPriceLabel:nil];
     [self setIdLabel:nil];
+    [self setImageView:nil];
+    [self setAddImageButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -56,4 +62,6 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)addImage:(UIButton *)sender {
+}
 @end

@@ -16,4 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *idLabel;
 
 @property (strong, nonatomic) Item *item;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)addImage:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *addImageButton;
 @end

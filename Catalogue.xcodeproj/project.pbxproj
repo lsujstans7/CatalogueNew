@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B90C1CA15D16755009C4CF3 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C1C915D16755009C4CF3 /* AboutViewController.m */; };
+		5B90C1CD15D169C5009C4CF3 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B90C1CC15D169C5009C4CF3 /* about.html */; };
 		7A62868B15D01D4600031037 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A62868A15D01D4600031037 /* DetailViewController.m */; };
 		7A62869315D02C2B00031037 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A62869215D02C2B00031037 /* AddViewController.m */; };
 		7A64BC5B15D056C7006782D8 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A64BC5A15D056C7006782D8 /* Twitter.framework */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		5B90C1C815D16755009C4CF3 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		5B90C1C915D16755009C4CF3 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		5B90C1CC15D169C5009C4CF3 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
 		7A62868915D01D4600031037 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		7A62868A15D01D4600031037 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		7A62869115D02C2B00031037 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				7AD2530C15CC263A002E38DA /* MainStoryboard.storyboard */,
 				5B90C1C815D16755009C4CF3 /* AboutViewController.h */,
 				5B90C1C915D16755009C4CF3 /* AboutViewController.m */,
+				5B90C1CC15D169C5009C4CF3 /* about.html */,
 				7A64BC5D15D060AA006782D8 /* WebsiteViewController.h */,
 				7A64BC5E15D060AA006782D8 /* WebsiteViewController.m */,
 				7A62869115D02C2B00031037 /* AddViewController.h */,
@@ -211,6 +214,7 @@
 				7AD2534115CC69B0002E38DA /* book@2x.png in Resources */,
 				7AD2534215CC69B0002E38DA /* cd.png in Resources */,
 				7AD2534315CC69B0002E38DA /* cd@2x.png in Resources */,
+				5B90C1CD15D169C5009C4CF3 /* about.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
